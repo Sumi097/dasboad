@@ -1,67 +1,102 @@
 .header{
     height: 100px;
-    background-color: rgb(85, 189, 189);
+    background-color: rgb(128, 164, 233);
     text-align: center;
     color: black;
-margin: 1%;
+
+}
+.option{
+    height: 100px;
+    background-color: rgb(80, 161, 161);
+    text-align: center;
+    color: black;
+
 }
 .side{
-display: flex;
-
+display: flex; 
+margin: 1%;
 }
-.rightside{
-width: 40%;
-height: 300px;
-background-color: rgb(179, 228, 228);
+.left{
+    height: 500px;
+    width:30% ;
+background-color: rgb(116, 116, 176);
+text-align: center;
+color: black; 
+margin: 1;
+padding: 1%;
+}
+
+.stone{
+    width: 90%;
+    height:150px ;
+background-color: rgb(108, 151, 151);
 text-align: center;
 color: black;
+margin: 1%;
 }
-.image{
-    width:100%;
-    height: 150px;
-    background-color: rgb(114, 190, 164);
-}
-.action{
+.sttwo{
+    width: 90%;
+    height:300px ;
+background-color: rgb(108, 234, 234);
+text-align: center;
+color: black;
+margin:1%;
 
-  width:100%;
-height: 100px;
-background-color: rgb(114, 190, 164);
 }
-
-.leftside{
-    width: 60%;
+.rigt{
+    height: 500px;
+    width:70% ;
+background-color: rgb(189, 189, 227);
+text-align: center;
+color: black; 
+margin: 1;
+padding: 1%;
+margin-left: 1%;
+}
+.content{
     height: 300px;
-    background-color: rgb(124, 182, 230);
+    width:100% ;
+background-color: rgb(116, 116, 176);
 text-align: center;
-color: black;
-margin-left: 2%;
+color: black; 
+margin: 1;
+
 }
-.FEATURE{
-height: 100px;
-background-color: rgb(137, 199, 199);
+.contentone{
+    height: 300px;
+    width:100% ;
+background-color: rgb(116, 116, 176);
 text-align: center;
-color: black;
-margin-top: 1%;
-margin-bottom: 2%;
+color: black; 
+margin:1%;
+margin-bottom: 1%;
+
+
 }
-.COPY{
-   display: flex;
+.cut{
+    display: flex;
+
 }
-.moreone{
-height: 200pX;
-width: 50%;
-background-color: rgb(141, 229, 200);
+.contenttwo{
+height: 150px;
+width: 52%;
+background-color: rgb(104, 154, 154);
 text-align: center;
+margin: 1%;
 }
-.MORE{
-    eight: 200pX;
-    width: 50%;
-    background-color: rgb(185, 227, 213);
-    text-align: center;
-    margin-left: 1%;
+.contentthree{
+        height: 150px;
+        width: 52%;
+        background-color: rgb(104, 154, 154);
+        text-align: center;
+            margin: 1%
 }
 .footer{
-height: 100px;
-text-align: center;
-background-color: rgb(111, 182, 182);
+    width: 100%;
+    height: 100px;
+    background-color: rgb(139, 166, 214);
+    text-align: center;
+    color: black; margin: 1%;
+
 }
+
